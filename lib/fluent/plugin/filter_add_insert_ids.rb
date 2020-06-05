@@ -40,7 +40,7 @@ module Fluent
       DEFAULT_INSERT_ID_KEY = 'logging.googleapis.com/insertId'.freeze
       # The character size of the insertIds. This matches the setup in the
       # Stackdriver Logging backend.
-      INSERT_ID_SIZE = 17
+      INSERT_ID_SIZE = 20
       # The characters that are allowed in the insertIds. This matches the
       # allowed collection by the Stackdriver Logging Backend.
       ALLOWED_CHARS = (Array(0..9) + Array('a'..'z')).freeze
